@@ -1,0 +1,23 @@
+CpuMinIdle：cpu空闲量
+CpuMinIdleTime：时间
+MemMaxUse：内存利用最大
+MemMaxUseTime：时间
+MaxSwapPageInMemory[Number]：swap写入
+Time：时间
+MaxSwapPageInMemory[Number]：swap写出
+Time：时间
+DiskReadMax[KB]：读取硬盘速率
+DiskReadMaxTime：时间
+DiskWriteMax[KB]：写的速率
+DiskWriteMaxTime：时间
+NetworkRxTime：网络发出时间
+RxIface：网口
+MaxRx[kB]：最大量
+NetworkTxTime：网络收最大量时间
+TxIface:网口
+MaxTx[kB]：值
+
+筛选条件：
+cpumindle  要求小于10%
+mem内存 要求大于80%
+rxdrop 要求大于1
